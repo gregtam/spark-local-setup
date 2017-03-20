@@ -14,11 +14,11 @@ The next step is to set this up to be used in a Jupyter notebook, because who wa
 
 4) We can do this by adding a few lines to our `.bash_profile` to configure PySpark to run in a notebook. By doing this, we can avoid all the headache of remembering specific options every time we want to run PySpark in a notebook.
 
-We first export a variable called `SPARK_PATH`
+We first export a variable called `SPARK_PATH`, where <i>path_to_spark_directory</i> is the path to the folder extracted from the tarball.
 <pre>
 export SPARK_PATH="<i>path_to_spark_directory</i>"
 </pre>
-Next, we can create an alias to start up PySpark in terminal
+Next, we can create an alias to start up PySpark in terminal.
 ```
 alias pyspark="$SPARK_PATH/bin/pyspark --master local[4]"
 ```
