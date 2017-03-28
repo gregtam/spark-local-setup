@@ -31,3 +31,5 @@ alias snotebook="PYSPARK_DRIVER_PYTHON='jupyter' PYSPARK_DRIVER_PYTHON_OPTS='not
 
 Now, we must restart the terminal or source the `.bash_profile` by executing `source ~/.bash_profile`. After doing this, we can simply run `snotebook` and our Jupyter notebook with Spark will be available. We can verify that the notebook is using Spark by running `sc` in a cell. If Spark is improperly setup, it will return `''`. Otherwise, it will show something like `<pyspark.context.SparkContext object at 0x1109f1d50>`.
 
+## Bash Script Installation
+In this repo, there is also a bash script file `install_spark.sh` which installs the most recent version of Spark (2.1.0) into the home directory and adds the above commands into the `.bash_profile` to be used. We can execute this by calling `bash install_spark.sh` or `sh install_spark.sh`.
