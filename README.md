@@ -1,6 +1,6 @@
 # spark-local-setup
 
-This repository provides a simple set of instructions to setup Spark (namely PySpark) locally in Jupyter notebook. 
+This repository provides a simple set of instructions to setup Spark (namely PySpark) locally in Jupyter notebook as well as an installation bash script.
 
 ## Downloading and Using Spark
 1) The first step is to download Apache Spark. We go to <a href='http://spark.apache.org/downloads.html'>http://spark.apache.org/downloads.html</a> and download whichever version we want.
